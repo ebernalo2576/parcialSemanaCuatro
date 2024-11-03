@@ -5,7 +5,7 @@ export class Cafe {
     region: string;
     sabor: string;
     altura: number;
-    iamgen: string;
+    imagen: string;
 
     constructor(
         id: number,
@@ -14,7 +14,7 @@ export class Cafe {
         region: string,
         sabor: string,
         altura: number,
-        iamgen: string
+        imagen: string
     ) {
         this.id = id;
         this.nombre = nombre;
@@ -22,7 +22,7 @@ export class Cafe {
         this.region = region;
         this.sabor = sabor;
         this.altura = altura;
-        this.iamgen = iamgen;
+        this.imagen = imagen;
     }
 }
 
