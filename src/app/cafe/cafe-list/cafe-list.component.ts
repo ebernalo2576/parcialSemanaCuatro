@@ -21,4 +21,12 @@ export class CafeListComponent {
             this.cafes = cafes;
         })
     }
+
+    get totalCafeOrigen(): number {
+        return this.cafes.filter(cafe => cafe.tipo === 'Café de Origen').length;
+    }
+
+    get totalBlend(): number {
+        return this.cafes.filter(cafe => cafe.tipo === 'Blend').length;
+    }
 }
